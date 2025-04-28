@@ -42,7 +42,7 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div className="first-project-wrapper " ref={projectRef1}>
-            <img src="/images/projec1.png" alt="Ryde" />
+            <img src="/images/project1.png" alt="Ryde" />
           </div>
           <div className="text-content">
             <h2>On - Demand</h2>
