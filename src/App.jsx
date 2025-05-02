@@ -1,9 +1,12 @@
-import LogoSection from "./components/LogoSection.jsx";
+import LogoShowcase from "./components/LogoShowcase.jsx";
+
 import NavBar from "./components/NavBar.jsx";
 import ExperienceSection from "./sections/ExperienceSection.jsx";
 import FeatureCards from "./sections/FeatureCards.jsx";
 import Hero from "./sections/hero.jsx";
 import ShowcaseSection from "./sections/ShowcaseSection.jsx";
+import TechStack from "./sections/TechStack.jsx";
+import Testimonials from "./sections/Testimonials.jsx";
 
 const App = () => {
   return (
@@ -11,9 +14,11 @@ const App = () => {
       <NavBar />
       <Hero />
       <ShowcaseSection />
-      <LogoSection />
+      <LogoShowcase />
       <FeatureCards />
       <ExperienceSection />
+      <TechStack />
+      <Testimonials />
     </>
   );
 };
